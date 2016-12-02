@@ -5,11 +5,11 @@ set -e
 CATALINA_HOME=/usr/share/tomcat7-codedeploy
 
 # Tar file name
-TOMCAT7_CORE_TAR_FILENAME='apache-tomcat-7.0.72.tar.gz'
+TOMCAT7_CORE_TAR_FILENAME='apache-tomcat-7.0.73.tar.gz'
 # Download URL for Tomcat7 core
-TOMCAT7_CORE_DOWNLOAD_URL="http://mirror.olnevhost.net/pub/apache/tomcat/tomcat-7/v7.0.72/bin/$TOMCAT7_CORE_TAR_FILENAME"
+TOMCAT7_CORE_DOWNLOAD_URL="https://archive.apache.org/dist/tomcat/tomcat-7/v7.0.73/bin/$TOMCAT7_CORE_TAR_FILENAME"
 # The top-level directory after unpacking the tar file
-TOMCAT7_CORE_UNPACKED_DIRNAME='apache-tomcat-7.0.72'
+TOMCAT7_CORE_UNPACKED_DIRNAME='apache-tomcat-7.0.73'
 
 
 # Check whether there exists a valid instance
