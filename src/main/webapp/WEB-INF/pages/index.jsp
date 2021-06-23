@@ -62,7 +62,7 @@
     </div>
   <% } %>
   <div class="container theme-showcase" role="main">
-    <% if (((String) request.getAttribute("deploymentGroupName")).contains("Production")) { %>
+    <% if (((String) request.getAttribute("deploymentGroupName")).contains("app-name-ProdEnv")) { %>
       <div class="alert alert-dismissible alert-warning">
         <button type="button" class="close" data-dismiss="alert">×</button>
         <h1>Grand Opening!</h1>
